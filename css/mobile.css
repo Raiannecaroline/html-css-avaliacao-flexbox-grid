@@ -10,16 +10,13 @@
     justify-content: center;
     width: 85%;
     height: 100%;
+    margin: 20px 10px 20px 10px;
   }
   
   .box:hover{
     -webkit-box-shadow: 3px 9px 15px 3px #969696; 
     box-shadow: 3px 9px 15px 3px #969696;
     transition: all 0.5s;
-    margin-bottom: 50px;
-  }
-  
-  .box-article{
-    padding: 20px;
+    margin-bottom: 30px;
   }
 }
