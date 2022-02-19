@@ -11,6 +11,14 @@
     width: 85%;
     height: 100%;
   }
+  
+  .box:hover{
+    -webkit-box-shadow: 3px 9px 15px 3px #969696; 
+    box-shadow: 3px 9px 15px 3px #969696;
+    transition: all 0.5s;
+    margin-bottom: 50px;
+  }
+  
   .box-article{
     padding: 20px;
   }

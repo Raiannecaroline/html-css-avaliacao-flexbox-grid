@@ -36,6 +36,13 @@ body{
   ;
 }
 
+.box:hover{
+  -webkit-box-shadow: 3px 9px 15px 3px #969696; 
+  box-shadow: 3px 9px 15px 3px #969696;
+  transition: all 0.5s;
+  margin-bottom: 50px;
+}
+
 /*GRID ARTICLE*/
 .box-article{
   grid-area: up;
@@ -132,6 +139,18 @@ section h3{
   border-radius: 5px;
   margin-top: 20px;
   border: none;
+}
+
+.button-section:hover{
+  background-color: rgb(240, 237, 105);
+  transition: all 0.4s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button-section p:hover{
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .list-aside{
