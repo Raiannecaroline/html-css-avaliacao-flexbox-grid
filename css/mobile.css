@@ -1,0 +1,17 @@
+/*MOBILE*/
+@media screen and (max-width: 400px){
+  body{
+    display: flex;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+  }
+  .box-article{
+    padding: 20px;
+  }
+}
